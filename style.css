@@ -1,0 +1,36 @@
+body {
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 10px;
+    transition: 15px;
+    overflow: hidden;
+}
+
+a:hover{
+    color: white;
+    background-color: gray;
+    box-shadow: 0 0 10px gray, 0 0 40px black, 0 0 80px darkgrey;
+    transition-delay: .1s;
+}
